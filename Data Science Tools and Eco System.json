@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    },
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    }
+  },
+  "nbformat_minor": 4,
+  "nbformat": 4,
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": "#### (Exercise2)",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "# Data science Tools and Ecosystem",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### (Exercise3)",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "### Introduction",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "##### This is an Activity task for the Week 6 Coursera task. it is only an example work of the Task. The Work and errand are finished and summed up with the earlier seven day stretch of talk and learning content. it short this task incorporated the Information Science presentation, Information Science Apparatuses, Programming dialects utilized in Information Science, Libraries, Programming interface, Datasets, Models utilized in Information Science and most IDE utilized in Information Science.",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### (Exercise4)",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### Some of the popular languages that Data Scientists use are:\n1. Python\n2. R\n3. SQL\n4. Julia\n5. Scala\n6. Java\n7. MATLAB",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### (Exercise5)",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "##### Data Science Libraries for Python :\n\n1. Numpy\n2. Pandas\n3. Metplotlib\n4. Scikit-learn\n5. Tensorflow\n6. PyTorch\n7. Seaborn",
+      "metadata": {
+        "tags": []
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### (Exercise6)",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### Data Science Tools\n| Data Science Tools |\n|--------------------|\n| NumPy |\n| Pandas |\n| Matplotlib |\n",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### (Exercise7)",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "##### Below are a few examples of evaluating arithmetic expressions in Python.\n\nArithmetic expressions in Python are evaluated in the same order of operations as in mathematics: parentheses, exponentiation, multiplication, division, addition, and subtraction.\n\nTo evaluate an arithmetic expression in Python, simply type the expression into a code cell and press `Shift`+`Enter`.\n\nHere are a few examples:\n",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "#Addition",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 15,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "786234 + 12984",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "execution_count": 16,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "799218"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#Subtraction",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 17,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "87264 - 678",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "execution_count": 18,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "86586"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": "#Multiplication",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": "32 * 87639",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "execution_count": 20,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "2804448"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### (Exercise8)",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "# This a simple arithmetic expression to mutiply then add integers\n(3*4)+5",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "execution_count": 21,
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": "17"
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### (Excercise9)",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "minutes = 80\nhours = minutes / 60\nprint(minutes,\"minutes in hours: {:.2f} Hours\".format(hours))",
+      "metadata": {
+        "trusted": true
+      },
+      "execution_count": 22,
+      "outputs": [
+        {
+          "name": "stdout",
+          "text": "80 minutes in hours: 1.33 Hours\n",
+          "output_type": "stream"
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### (Exercise10)",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "##### The objectives of using lists in Python are:\n\nCollection of Items: Lists provide a way to store multiple items of different data types in a single variable. You can have elements like integers, floats, strings, or even other lists within a single list.\n\nOrdered Elements: Lists maintain the order of the elements as they are added. Each element has a specific position or index in the list, allowing for easy access based on its position.\n\nMutability: Lists are mutable, meaning you can modify them after creation. You can add new elements, remove existing ones, or change the values of elements within the list.\n\nDynamic Size: Lists can grow or shrink as needed. You can add elements to the list as your program runs, making it flexible and adaptable to changing requirements.\n\nIteration and Access: Lists support iteration using loops, making it easy to process each item in the list one by one. You can access elements in a list by their index or use slicing to extract a portion of the list.\n\nVersatility: Lists can hold elements of different data types. You can mix integers, strings, booleans, and other data types within a single list, making them versatile for organizing heterogeneous data.\n\nConcatenation and Repetition: Lists can be combined (concatenated) using the + operator, allowing you to join two or more lists together. They can also be repeated using the * operator, duplicating the elements.\n\nData Organization: Lists are suitable for organizing data into collections, such as representing a list of students, inventory items, or points in a coordinate system.",
+      "metadata": {}
+    },
+    {
+      "cell_type": "markdown",
+      "source": "#### (Exercise11)\nContact Me\n\nAuthor : Karunya Devaki\n\nEmail : karunyadevaki@gmail.com",
+      "metadata": {}
+    },
+    {
+      "cell_type": "code",
+      "source": "",
+      "metadata": {},
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
